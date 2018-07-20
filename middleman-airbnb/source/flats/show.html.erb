@@ -1,0 +1,13 @@
+<div id="flat-owner">
+  <div class="flat-content">
+    <div class="profile-grid">
+      <% flat = data.flats[owner] %>
+      <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class: "img-circle" %>
+      <p><%= flat.name %></p>
+    </div>
+    <div class="description-grid">
+      <h1><%= flat.description %></h1>
+      <p><%= flat.city_name %></p>
+    </div>
+  </div>
+ </div>
